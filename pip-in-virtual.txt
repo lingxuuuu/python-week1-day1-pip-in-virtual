@@ -1,0 +1,239 @@
+C:\Users\lingx\python\assignments\I--my_environments>call py3Env\Scripts\activate
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.2.3 is available.
+You should consider upgrading via the 'c:\users\lingx\python\assignments\i--my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.2.3 is available.
+You should consider upgrading via the 'c:\users\lingx\python\assignments\i--my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>deactivate
+C:\Users\lingx\python\assignments\I--my_environments>pip3 list
+Package           Version
+----------------- -------
+asgiref           3.2.10
+astroid           2.4.2
+colorama          0.4.3
+isort             5.5.3
+lazy-object-proxy 1.4.3
+mccabe            0.6.1
+pip               20.1.1
+pylint            2.6.0
+pytz              2020.1
+setuptools        47.1.0
+six               1.15.0
+sqlparse          0.3.1
+toml              0.10.1
+wrapt             1.12.1
+WARNING: You are using pip version 20.1.1; however, version 20.2.3 is available.
+You should consider upgrading via the 'c:\users\lingx\appdata\local\programs\python\python38-32\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\lingx\python\assignments\I--my_environments>call py3Env\Scripts\activate
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>pip install Django
+Collecting Django
+  Using cached Django-3.1.1-py3-none-any.whl (7.8 MB)
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.3.1-py2.py3-none-any.whl (40 kB)
+Collecting asgiref~=3.2.10
+  Using cached asgiref-3.2.10-py3-none-any.whl (19 kB)
+Collecting pytz
+  Using cached pytz-2020.1-py2.py3-none-any.whl (510 kB)
+Installing collected packages: sqlparse, asgiref, pytz, Django
+Successfully installed Django-3.1.1 asgiref-3.2.10 pytz-2020.1 sqlparse-0.3.1
+WARNING: You are using pip version 20.1.1; however, version 20.2.3 is available.
+You should consider upgrading via the 'c:\users\lingx\python\assignments\i--my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>pip freeze
+asgiref==3.2.10
+Django==3.1.1
+pytz==2020.1
+sqlparse==0.3.1
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>cd ~/Desktop
+The system cannot find the path specified.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>cd Desktop
+The system cannot find the path specified.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>cd desktop
+The system cannot find the path specified.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>cd Desktop
+The system cannot find the path specified.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>cd ~/Desktop
+The system cannot find the path specified.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>cd lingx
+The system cannot find the path specified.
+
+(py3Env) C:\Users\lingx\python\assignments\I--my_environments>cd..
+
+(py3Env) C:\Users\lingx\python\assignments>cd..
+
+(py3Env) C:\Users\lingx\python>cd..
+
+(py3Env) C:\Users\lingx>cd desktop
+
+(py3Env) C:\Users\lingx\Desktop>pip freeze
+asgiref==3.2.10
+Django==3.1.1
+pytz==2020.1
+sqlparse==0.3.1
+
+(py3Env) C:\Users\lingx\Desktop>requirements.txt
+'requirements.txt' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\lingx\Desktop>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\lingx\Desktop>pip freeze > requirements.txt
+
+(py3Env) C:\Users\lingx\Desktop>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\lingx\Desktop>dir
+ Volume in drive C is Local Disk
+ Volume Serial Number is 4459-1FFE
+
+ Directory of C:\Users\lingx\Desktop
+
+09/28/2020  01:07 PM    <DIR>          .
+09/28/2020  01:07 PM    <DIR>          ..
+09/21/2020  11:17 AM             2,247 Discord.lnk
+09/21/2020  11:58 AM             2,371 GitHub Desktop.lnk
+09/28/2020  01:07 PM                63 requirements.txt
+09/20/2020  07:03 PM             1,420 Visual Studio Code.lnk
+               4 File(s)          6,101 bytes
+               2 Dir(s)  460,008,837,120 bytes free
+
+(py3Env) C:\Users\lingx\Desktop>pip uninstall Django
+Found existing installation: Django 3.1.1
+Uninstalling Django-3.1.1:
+  Would remove:
+    c:\users\lingx\python\assignments\i--my_environments\py3env\lib\site-packages\django-3.1.1.dist-info\*
+    c:\users\lingx\python\assignments\i--my_environments\py3env\lib\site-packages\django\*
+    c:\users\lingx\python\assignments\i--my_environments\py3env\scripts\django-admin.exe
+    c:\users\lingx\python\assignments\i--my_environments\py3env\scripts\django-admin.py
+Proceed (y/n)? y
+  Successfully uninstalled Django-3.1.1
+
+(py3Env) C:\Users\lingx\Desktop>pip show Django
+WARNING: Package(s) not found: Django
+
+(py3Env) C:\Users\lingx\Desktop>pip search Flask
+Flask-SimpleMDE (0.3.0)      - Flask-SimpleMDE - a Flask extension for SimpleMDE
+Flask-Pure (0.5)             - Flask-Pure - a Flask extension for Pure.css
+Flask-OrientDB (0.1)         - A Flask extension for using OrientDB with Flask
+Flask-ElasticUtils (0.1.7)   - ElasticUtils for Flask
+Flask-PubSub (0.1.0)         - Flask-PubSub
+sockjs-flask (0.3)           - SockJs for Flask
+Flask-Stripe (0.1.0)         - Flask-Stripe
+Flask-Waitress (0.0.1)       - Flask Waitress
+flask-helloworld (1.0.0)     - Flask Helloworld
+flask-live (0.0.1)           - Flask Live
+flask-zs (0.1.0)             - A helpers for Flask.
+Flask-Quik (0.1.1)           - Quik for Flask
+Flask-GripControl (0.0.1)    - Flask GripControl
+Flask-TinyMce (0.1.6)        - flask tinymce
+Flask-SRI (0.1.0)            - Flask-SRI
+flask-ws (0.0.1.0)           - Websocket for flask.
+Flask-Intercom (0.1.0)       - Flask-Intercom
+Flask-SPF (0.0.0)            - Flask-SPF
+flask-toolbox (0.0.2)        - A flask toolbox.
+Flask-Turbolinks (0.2.0)     - Turbolinks for Flask.
+Flask-BDEA (0.1.0)           - Flask-BDEA
+Flask-Helper (1.2.2)         - Flask Helper
+Flask-MDE (1.2.0)            - Pagedown for Flask
+Flask-Watson (0.1.0)         - Flask-Watson
+Flask-FileRev (0.1.0)        - Flask-FileRev
+Flask-Ext (0.1)              - Extensions of Flask
+flask-abort (0.0.1)          - flask abort
+flask-ypaginate (0.1.3)      - Pagination for Flask
+Flask-Shopify (0.2)          - Shopify Flask
+Flask-TaskTiger (0.0.1)      - Flask TaskTiger
+Flask-Weixin (0.5.0)         - Weixin for Flask.
+Flask-OAuthlib (0.9.6)       - OAuthlib for Flask
+Flask-NextCaller (0.1.0)     - Flask-NextCaller
+Flask-Gears (0.2)            - Gears for Flask
+flask-mico (0.2.3)           - flask mico
+Flask-AutoIndex (0.6.6)      - The mod_autoindex for Flask
+Flask-Clearbit (0.1.0)       - Flask-Clearbit
+Flask-FontAwesome (0.1.5)    - FontAwesome for Flask
+Flask-Mustache (0.4.1)       - Mustache for Flask
+Fifty-Flask (1.4.0)          - Flask enhancements.
+Flask-Chargebee (0.0.1)      - Flask-Chargebee
+Flask-Keen (0.1.0)           - Flask-Keen
+flask-serializer (0.0.5.1)   - A Flask serializer built with marshmallow and flask-sqlalchemy
+airbrake-flask (1.0.7)       - airbrake-flask - Airbrake client for Python Flask
+Flask-Diced (0.3)            - Flask-Diced - CRUD views generator for Flask
+Flask-GeoIP (0.1.3)          - Flask-GeoIP -------------  Simple Flask extension for pygeoip.
+Flask-hCaptcha (0.5.1)       - A hCaptcha extension for Flask based on flask-recaptcha
+Flask-RESTive (0.0.3)        - Flask RESTive is a REST API Flask extension based on Flask-RESTful & Marshmallow.
+Flask-LoginManager (1.1.6)   - Flask-Loginmanager supports multiple roles and permissions for Flask, inspired by Flask-Login
+Flask-FlatPagesCut (0.5.1)   - Flask-FlatPagesCut is fork Flask-FlatPages (Provides flat static pages to a Flask application)
+flask-lesscss (0.9.1)        - A small Flask extension that adds LessCSS support to Flask.
+Flask-xCaptcha (0.5.1)       - The new xCaptcha implementation for Flask without Flask-WTF
+flask-shell (0.1.3)          - Flask extension to improve shell command for the Flask CLI.
+flask-creator (0.1.8)        - A flask tool to quickly create and launch flask app
+flask-stylus2css (0.1)       - A small Flask extension that adds Stylus support to Flask.
+flask-coffee2js (0.1.2)      - A small Flask extension that adds CoffeScript support to Flask.
+Flask-Collect (1.3.2)        - Flask-Collect -- Collect static files in Flask application
+flask-filters (0.3)          - The Flask Filter to use with flask-restful and Relational DB
+Flask-Shelve (0.1.1)         - Shelve support for Flask
+Flask-OpenID (1.2.5)         - OpenID support for Flask
+Flask-CKEditor (0.4.4.1)     - CKEditor integration for Flask.
+Flask-Zero (0.9.6)           - Qiniu Storage for Flask
+Flask-CuttlePool (0.2.1)     - A Flask extension for CuttlePool
+Flask-Triangle (0.5.4)       - Integration of AngularJS and Flask.
+Flask-Funnel (0.1.10)        - Asset management for Flask.
+Flask-SaeStorage (0.9.0)     - SAE Storage for Flask
+Flask-Passlib (0.1)          - Flask extension for passlib
+Flask-Slack (0.1.5)          - Slack extension for Flask.
+Flask-Triangle3 (0.5.3)      - Integration of AngularJS and Flask.
+Flask-ZMQ (0.1.2)            - Flask extension for ZMQ
+Flask-Edits (0.8)            - Editable Content in Flask
+Flask-Breve (0.2)            - Breve templating with Flask
+Flask-mongobit (0.3.0)       - MongoBit support in Flask
+flask-logsocketio (0.1.4)    - Flask LogSocketIo module
+Flask-Navigation (0.2.0)     - The navigation of Flask application.
+flask-serial (1.1.0)         - Flask extension for the Serial
+flask-discoverer (0.1.4)     - Flask API autodiscovery
+flask-snow (0.2.8)           - Pysnow extension for Flask
+Flask-Autodoc (0.1.2)        - Documentation generator for flask
+Flask-wechatpy (0.1.3)       - wechatpy for flask extension
+Flask-Vises (2.1.4)          - A Flask scaffold library
+Flask-PyFCM (0.1.1)          - Flask extension for PyFCM
+Flask-sshtunnel (0.1b2)      - sshtunnel extension for flask
+flask-mdict (1.1.5)          - Flask Mdict Server
+Flask-Avatar (0.1.3)         - To generate avatar for flask
+Flask-wangEditor (0.0.3.2)   - wangEditor integration for Flask.
+flask-adh (0.1)              - flask admin antd
+Flask-Sixpack (0.0.1)        - Flask wrapper for Sixpack
+flask-oso (0.3.0)            - oso flask integration
+Flask-MySQLdb (0.2.0)        - MySQLdb extension for Flask
+flask-symphony (0.0.1.dev0)  - flask Admin Symphony
+flask-blitzdb (0.1)          - Flask extension for blitzdb
+Flask-RBAC (0.3.0)           - RBAC support for Flask
+Flask-Airbrake (0.0.3)       - Flask extension for Airbrake
+castle-flask (0.0.1)         - A Flask client for Castle.io
+flask-handlers (0.0.1)       - Handlers for Flask applications
+Flask-Postmark (0.3.1)       - Postmark Flask extension
+flask-keycloak (1.1.0)       - flask integration with keycloak
+skywalking-flask (0.0.5)     - Skywalking Flask Support.
+Flask-Htmldoom (0.2.1)       - htmldoom integration for Flask
+
+(py3Env) C:\Users\lingx\Desktop>
